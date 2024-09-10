@@ -14,7 +14,7 @@ Depois de criar o ambiente, você precisa ativá-lo. O processo de ativação va
 
 Sem janelas
 
-nome_do_ambiente\Scripts\activate
+venv\Scripts\activate
 
 tem que abrir o venv toda vez que sair do VScode 
 
@@ -27,9 +27,11 @@ deactivate
 """
 
 """
-    conectando com o GIT
 
+    rodando um servidor provisorio
 
+Para criar um servidor provisorio so para comecar a fazer o codigo tem q usar o:
 
+    python manage.py runserver
 
 """
