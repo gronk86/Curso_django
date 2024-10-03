@@ -1,10 +1,11 @@
 {
-  "python.languageServer": "Pylance", 
-  "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": [
-    "tests"  // ou o diretório onde seus testes estão localizados
-  ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestArgs": [
+      "recipes/tests", 
+      "-v"
+    ],
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
   "python.linting.pylintArgs": [
