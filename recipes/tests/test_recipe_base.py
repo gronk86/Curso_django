@@ -2,8 +2,6 @@ from django.test import TestCase
 from recipes.models import Category, Recipe, User
 
 
-
-
 class RecipeTestBase(TestCase):
     def setUp(self) -> None:
         return super().setUp()
