@@ -1,0 +1,3 @@
+[run]
+bhamch = true
+omit = venv/*,**/*test*.py, manage.py, __localcode/*
