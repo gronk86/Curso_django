@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=65)),
                 ('description', models.CharField(max_length=165)),
-                ('slug', models.SlugField()),
+                ('slug', models.SlugField(unique=True)),
                 ('preparation_time', models.IntegerField()),
                 ('preparation_time_unit', models.CharField(max_length=65)),
                 ('servings', models.IntegerField()),
